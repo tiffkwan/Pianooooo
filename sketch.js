@@ -2,7 +2,7 @@
  * Tiffany
  *30 April 2020
  */
-let notes = [60, 62, 64, 65, 67, 69, 71, 72];
+let notes = [60, 62, 64, 65, 67, 69, 71, 74];
 //let blackkeys = [61, 63, 66, 68, 70];
 let index = 0;
 let trigger = 0;
@@ -96,7 +96,7 @@ function draw() {
   if (mouseX >= 3 / 32 * width && mouseX <= 5 / 32 * width && mouseY < height / 2) {
     if (mouseIsPressed) {
       //play music
-      fill(255);
+      fill(189, 0, 0); //dark red
       rect(3 / 4 * width / 8, 0, width / 16, height / 2);
     } else {
       fill(0);
@@ -108,7 +108,7 @@ function draw() {
   rect(7 / 4 * width / 8, 0, width / 16, height / 2);
   if (mouseX >= 7 / 32 * width && mouseX <= 9 / 32 * width && mouseY < height / 2) {
     if (mouseIsPressed) {
-      fill(255);
+      fill(185, 133, 62); //dark orange
       rect(7 / 4 * width / 8, 0, width / 16, height / 2);
     } else {
       fill(0);
@@ -122,7 +122,7 @@ function draw() {
   if (mouseX >= 15 / 32 * width && mouseX <= 17 / 32 * width && mouseY < height / 2) {
     if (mouseIsPressed) {
       //play music
-      fill(255);
+      fill(216, 203, 48); // dark yellow
       rect(15 / 4 * width / 8, 0, width / 16, height / 2);
     } else {
       fill(0);
@@ -135,7 +135,7 @@ function draw() {
   if (mouseX >= 19 / 32 * width && mouseX <= 21 / 32 * width && mouseY < height / 2) {
     if (mouseIsPressed) {
       //play music
-      fill(255);
+      fill(61, 159, 32); // dark green
       rect(19 / 4 * width / 8, 0, width / 16, height / 2);
     } else {
       fill(0);
@@ -148,7 +148,7 @@ function draw() {
   if (mouseX >= 23 / 32 * width && mouseX <= 25 / 32 * width && mouseY < height / 2) {
     if (mouseIsPressed) {
       //play music
-      fill(255);
+      fill(17, 103, 174); // dark blue
       rect(23 / 4 * width / 8, 0, width / 16, height / 2);
     } else {
       fill(0);
@@ -160,7 +160,7 @@ function draw() {
   rect(31 / 4 * width / 8, 0, width / 32, height / 2);
   if (mouseX >= 31 / 32 * width && mouseX <= 33 / 32 * width && mouseY < height / 2) {
     if (mouseIsPressed) {
-      fill(255);
+      fill(164, 0, 164); // dark purple
       rect(31 / 4 * width / 8, 0, width / 32, height / 2);
     } else {
       fill(0);

@@ -33,4 +33,4 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Credits
 
-* [monniqian] (https://editor.p5js.org/monniqian/sketches/TwckaaeGl)-- creator on p5.js that gave me inspiration for this program
+* [monniqian](https://editor.p5js.org/monniqian/sketches/TwckaaeGl) - creator on p5.js that gave me inspiration for this program

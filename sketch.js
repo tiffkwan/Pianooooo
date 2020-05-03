@@ -130,7 +130,7 @@ function draw() {
 
   //G# note - black key 5
   fill(0);
-  rect(18 / 4 * width / 8, 0, width / 16, height / 2);
+  rect(19 / 4 * width / 8, 0, width / 16, height / 2);
   if (mouseX >= 19 / 32 * width && mouseX <= 21 / 32 * width && mouseY < height / 2) {
     if (mouseIsPressed) { //play music
       fill(61, 159, 32); // dark green

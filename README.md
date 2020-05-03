@@ -11,7 +11,7 @@ A basic, classic piano with white and black keys. This program will be controlle
 
 ### Results 
 
-This program was written using p5.js and its sound library (p5.sound). Eariler in theprocess, I was recommended to try to use the keyboard functions as the piano keys rather than pressing with the mouse; I was unable to meet this goal, so the piano will be played with the mouse. Lastly, in my original proposal, the piano was supposed to be vertical instead of horizontal. I had gone through many trials trying to reposition parts of the code and had no luck. Overall, my piano runs fine. Each key has their own individual note and color when they are pressed with a mouse. When testing the piano, I noticed that some keys would need multiple clicks for the note to play. I looked over the code and found no problem; perhaps the local editor I used is a bit glitchy. 
+This program was written using p5.js and its sound library (p5.sound). Eariler in theprocess, I was recommended to try to use the keyboard functions as the piano keys rather than pressing with the mouse; I was unable to meet this goal, so the piano will be played with the mouse. Lastly, in my original proposal, the piano was supposed to be vertical instead of horizontal. I had gone through many trials trying to reposition parts of the code and had no luck. As a result, the piano is in a horizontal position. Overall, my piano runs fine. Each key has their own individual note and color when they are pressed with a mouse. When testing the piano, I noticed that some keys would need multiple clicks for the note to play. I looked over the code and found no problem; perhaps the local editor I used is a bit glitchy. 
 
 ### Objectives Achieved
 * Working both locally and p5.js

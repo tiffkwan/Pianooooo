@@ -1,6 +1,6 @@
 # Pianooooo
 
-# Tiffany Kwan
+# By: Tiffany Kwan
 
 ### Deployment
 [Tiffany's Githib Page](https://tiffkwan.github.io/Pianooooo/) - Project Link

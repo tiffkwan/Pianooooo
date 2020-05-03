@@ -3,7 +3,7 @@
 # Tiffany Kwan
 
 ### Deployment
-[Githib Pages](https://tiffkwan.github.io/Pianooooo/)
+[Tiffany's Githib Page](https://tiffkwan.github.io/Pianooooo/) - Project Link
 
 ### Statement
 

@@ -1,6 +1,6 @@
-/* FINAL PROJECT
- * Tiffany
- *30 April 2020
+/* FINAL PROJECT : Pianooooo
+ * by Tiffany Kwan <kwant@emmanuel.edu>
+ * May 3, 2020
  */
 let notes = [60, 62, 64, 65, 67, 69, 71, 74];
 //let blackkeys = [61, 63, 66, 68, 70];
@@ -169,8 +169,8 @@ function draw() {
   }
 }
 
-function mousePressed(event) {
-  if (event.button == 0 && event.clientX < width && event.clientY < height) {
+function mousePressed(pplayed) {
+  if (pplayed.button == 0 && pplayed.clientX < width && pplayed.clientY < height) {
     // Map mouse to the key index
     let key = floor(map(mouseX, 0, width, 0, notes.length));
     playNote(notes[key]);

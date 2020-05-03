@@ -2,8 +2,8 @@
  * by Tiffany Kwan <kwant@emmanuel.edu>
  * May 3, 2020
  */
-let notes = [60, 62, 64, 65, 67, 69, 71, 74];
-let blackkeys = [61, 63, 66, 68, 70];
+let notes = [60, 63, 65, 67, 69, 71, 73, 75];
+let blackkeys = [61, 62, 64, 68, 70];
 let index = 0;
 let trigger = 0;
 let osc;
@@ -13,7 +13,7 @@ function setup() {
 
   // Triangle oscillator
   osc = new p5.TriOsc();
-  // Start silent
+  // Start quiet
   osc.start();
   osc.amp(0);
 }
@@ -37,7 +37,7 @@ function draw() {
 
   //white keys outline
   stroke(0);
-  line(width / 8, 0, width / 8, height);
+  line(1 * width / 8, 0, width / 8, height);
   line(2 * width / 8, 0, 2 * width / 8, height);
   line(3 * width / 8, 0, 3 * width / 8, height);
   line(4 * width / 8, 0, 4 * width / 8, height);

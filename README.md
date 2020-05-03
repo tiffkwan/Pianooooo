@@ -7,7 +7,7 @@
 
 ### Statement
 
-A basic, classic piano with white and black keys. This program will be controlled, using/clicking the mouse. 
+A basic, classic piano with white and black keys. This program will be controlled, using/clicking the mouse. It was interesting to see how complex it is to code a seemingly simple object/game. During the process of creating this code, it was fascinating to learn how to use abstraction to make the code easier to read and easier to work with.
 
 ### Results 
 

@@ -2,6 +2,9 @@
 
 # Tiffany Kwan
 
+### Deployment
+[Githib Pages](https://tiffkwan.github.io/Pianooooo/)
+
 ### Statement
 
 A basic, classic piano with white and black keys. This program will be controlled, using/clicking the mouse. 

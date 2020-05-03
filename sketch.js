@@ -2,8 +2,8 @@
  * by Tiffany Kwan <kwant@emmanuel.edu>
  * May 3, 2020
  */
-let notes = [60, 63, 65, 67, 69, 71, 73, 75];
-let blackkeys = [61, 62, 64, 68, 70];
+let notes = [59, 61, 63, 65, 67, 69, 70, 71];
+let blackkeys = [60, 62, 64, 68, 70];
 let index = 0;
 let trigger = 0;
 let osc;
@@ -11,9 +11,9 @@ let osc;
 function setup() {
   createCanvas(500, 400);
 
-  // Triangle oscillator
+  // oscillator- triangle
   osc = new p5.TriOsc();
-  // Start quiet
+  // Silent
   osc.start();
   osc.amp(0);
 }
@@ -35,9 +35,9 @@ function playNotes(note, duration) {
 function draw() {
   background(255);
 
-  //white keys outline
+  // outline for white keys
   stroke(0);
-  line(1 * width / 8, 0, width / 8, height);
+  line(1 * width / 8, 0, 1 * width / 8, height);
   line(2 * width / 8, 0, 2 * width / 8, height);
   line(3 * width / 8, 0, 3 * width / 8, height);
   line(4 * width / 8, 0, 4 * width / 8, height);
@@ -47,6 +47,7 @@ function draw() {
   line(8 * width / 8, 0, 8 * width / 8, height);
 
 // Colors will depend on location of the mouse
+
   //C note- white key 1
   if (mouseX < width / 8 && mouseX > 0) {
     fill(255, 179, 217); // pink
@@ -55,7 +56,7 @@ function draw() {
     //D note- white key 2
   } else if (mouseX < 2 * width / 8) {
     fill(255, 203, 151); // light orange
-    rect(width / 8, 0, width / 8, height);
+    rect(1 * width / 8, 0, width / 8, height);
 
     //E note- white key 3
   } else if (mouseX < 3 * width / 8) {
@@ -129,7 +130,7 @@ function draw() {
 
   //G# note - black key 5
   fill(0);
-  rect(19 / 4 * width / 8, 0, width / 16, height / 2);
+  rect(18 / 4 * width / 8, 0, width / 16, height / 2);
   if (mouseX >= 19 / 32 * width && mouseX <= 21 / 32 * width && mouseY < height / 2) {
     if (mouseIsPressed) { //play music
       fill(61, 159, 32); // dark green

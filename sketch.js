@@ -115,7 +115,7 @@ function draw() {
     }
   }
 
-  //F# note - black key 4
+  //F# note - black key 3
   fill(0);
   rect(15 / 4 * width / 8, 0, width / 16, height / 2)
 
@@ -128,7 +128,7 @@ function draw() {
     }
   }
 
-  //G# note - black key 5
+  //G# note - black key 4
   fill(0);
   rect(19 / 4 * width / 8, 0, width / 16, height / 2);
   if (mouseX >= 19 / 32 * width && mouseX <= 21 / 32 * width && mouseY < height / 2) {
@@ -140,7 +140,7 @@ function draw() {
     }
   }
 
-  //A# note- black key 6
+  //A# note- black key 5
   fill(0);
   rect(23 / 4 * width / 8, 0, width / 16, height / 2);
   if (mouseX >= 23 / 32 * width && mouseX <= 25 / 32 * width && mouseY < height / 2) {
@@ -152,7 +152,7 @@ function draw() {
     }
   }
 
-  // C# - black key 7
+  // C# - black key 6
   fill(0);
   rect(31 / 4 * width / 8, 0, width / 32, height / 2);
   if (mouseX >= 31 / 32 * width && mouseX <= 33 / 32 * width && mouseY < height / 2) {

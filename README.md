@@ -28,3 +28,4 @@ This program was written using p5.js and its sound library (p5.sound). Eariler i
 ## Credits
 
 * [monniqian](https://editor.p5js.org/monniqian/sketches/TwckaaeGl) - creator on p5.js that gave me inspiration for this program
+* [kay1997](https://editor.p5js.org/kay1997/sketches/rJ21NCddx) - creator on p5.js that gave me inspiration for this program
